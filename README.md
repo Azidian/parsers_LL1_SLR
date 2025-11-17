@@ -3,6 +3,11 @@
 A comprehensive Java implementation of LL(1) and SLR(1) parsers for context-free grammars. This tool analyzes grammars to determine if they are LL(1), SLR(1), 
 both, or neither, and provides interactive parsing capabilities.
 
+## Authors
+- Isabella Cadavid Posada
+- Isabella Ocampo Sanchez
+- Wendy Vanessa Atehortua Chaverra
+
 ## Features
 - **Dual Parser Support**: Implements both LL(1) and SLR(1) parsing algorithms
 - **Automatic Grammar Analysis**: Determines if a grammar is LL(1), SLR(1), both, or neither
@@ -120,11 +125,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is open source.
-
-## Authors
-Isabella Cadavid Posada
-Isabella Ocampo Sanchez
-Wendy Vanessa Atehortua Chaverra
 
 ## Acknowledgments
 
