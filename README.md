@@ -24,12 +24,17 @@ git clone https://github.com/yourusername/grammar-parser.git
 cd grammar-parser
 ```
 
-2. Compile the Java files:
+2. Open a terminal and navigate to the folder where your project is located
+```bash
+cd path/to/your/project
+```
+
+3. Compile the Java files:
 ```bash
 javac *.java
 ```
 
-3. Run the program:
+4. Run the program:
 ```bash
 java Main
 ```
