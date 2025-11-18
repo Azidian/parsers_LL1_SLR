@@ -81,8 +81,7 @@ public class LL1Parser {
                 }
 
                 String production = parseTable.get(top).get(current);
-                // if (!production.equals("e")) { // <-- LÍNEA ANTIGUA
-                if (!production.isEmpty()) { // <-- LÍNEA NUEVA
+                if (!production.isEmpty()) { 
                     for (int i = production.length() - 1; i >= 0; i--) {
                         stack.push(production.charAt(i));
                     }
