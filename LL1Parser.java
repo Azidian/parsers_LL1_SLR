@@ -69,12 +69,8 @@ public class LL1Parser {
                 return true;
             }
 
-            // *** INICIO DE LA CORRECCIÓN ***
             if (!Character.isUpperCase(top)) {
-                // if (top == 'e') { // <-- LÍNEA ANTIGUA (ELIMINADA)
-                //     continue;
-                // }
-                if (top == current) { // <-- LÍNEA NUEVA (SIMPLIFICADA)
+                if (top == current) { 
                     pos++;
                 } else {
                     return false;
@@ -92,7 +88,6 @@ public class LL1Parser {
                     }
                 }
             }
-            // *** FIN DE LA CORRECCIÓN ***
         }
 
         return pos == input.length();
